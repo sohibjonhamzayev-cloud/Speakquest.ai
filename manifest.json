@@ -1,10 +1,10 @@
 {
-  "name": "SpeakQuest AI",
+  "name": "SpeakQuest 2.0",
   "short_name": "SpeakQuest",
+  "description": "O'zbek boshlovchilar uchun inglizcha missiyalar",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#0b1020",
-  "theme_color": "#0b1020",
-  "description": "O‘zbekzabon beginnerlar uchun inglizcha speaking o‘yini",
+  "background_color": "#0c1024",
+  "theme_color": "#111329",
   "icons": []
 }

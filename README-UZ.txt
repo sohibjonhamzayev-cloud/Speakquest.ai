@@ -1,12 +1,19 @@
-SPEAKQUEST AI — iPhone PWA prototipi
+SPEAKQUEST 2.0 — iPhone uchun bepul PWA prototip
 
-Bu ZIP ichidagi index.html — Safari orqali ishlatish uchun veb-prototip. O‘z ichida 4 ta vaziyat, chat UI, ovoz chiqarib o‘qish, ayrim brauzerlarda mikrofon orqali matnga aylantirish, XP va localStorage progress bor. AI backend ulanmaguncha haqiqiy generativ AI emas; oddiy qoidaviy feedback beradi.
+GitHub Pages orqali yangilash:
+1. ZIP faylni iPhone Files ilovasida oching.
+2. GitHub repository Speakquest.ai sahifasini oching.
+3. Add file → Upload files orqali index.html, manifest.json va sw.js fayllarini tanlang.
+4. Commit changes ni bosing. Agar GitHub fayl nomi allaqachon mavjud desa, almashtirishni tasdiqlang.
+5. Settings → Pages: Source = Deploy from a branch, Branch = main, folder = /(root), Save.
+6. Bir necha daqiqa kuting. Saytni Safari’da ochib, sahifani yangilang. Eski versiya ko‘rinsa, Safari’da qayta yuklang yoki sayt ma’lumotlarini tozalang.
+7. Share → Add to Home Screen. Eski ikonka bo‘lsa, uni olib tashlab qayta qo‘shing.
 
-iPhone'da faqat telefon bilan:
-1) ZIPni Files ichiga yuklab olib ochish mumkin, lekin HTML faylni shunchaki Files'dan ochish PWA o‘rnatish uchun yetarli emas.
-2) Fayllarni HTTPS hostingga joylash kerak (masalan GitHub Pages). Buning uchun GitHub akkaunti va Safari'da fayl upload qilish mumkin.
-3) Hosted HTTPS URL'ni Safari'da och.
-4) Safari Share → Add to Home Screen → Add.
-5) AI chat uchun backend host qilish va API key server env vars keessa saqlash kerak. API key'i index.html içine yozma.
+Nimalar ishlaydi:
+- 8 ta kundalik vaziyatli missiya; keyingisi oldingisi tugagach ochiladi.
+- XP, daraja, yutuqlar, progress localStorage’da saqlanadi.
+- Tez javob tugmalari, matn yuborish, hint, inglizcha ovoz chiqarib o‘qish.
+- Mikrofon nutqni tanish imkoniyati brauzerga bog‘liq; iOS Safari’da mavjud bo‘lmasligi mumkin.
 
-Mikrofon speech-to-text iOS Safari'da versiyaga qarab farq qiladi; ishlamasa iPhone klaviaturasidagi dictation tugmasidan foydalan. Text-to-speech Safari speechSynthesis'ni ishlatadi.
+Muhim cheklov:
+Bu bepul prototip haqiqiy generativ AI emas. Javoblar sodda qoidalar asosida baholanadi, shuning uchun 100% xatosiz baholashni kafolatlab bo‘lmaydi. Haqiqiy AI uchun xavfsiz server va bepul kvotasi bo‘lishi mumkin bo‘lgan tashqi AI xizmati kerak. Hech qachon API kalitini GitHub’dagi HTML faylga qo‘ymang.
